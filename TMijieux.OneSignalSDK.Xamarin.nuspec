@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
-        <version>4.3.5</version>
-        <id>OneSignalSDK.Xamarin</id>
+        <version>4.3.5-alpha.3</version>
+        <id>TMijieux.OneSignalSDK.Xamarin</id>
         <title>OneSignal SDK for Xamarin</title>
         <authors>OneSignal</authors>
         <owners>OneSignal</owners>
-        <licenseUrl>https://github.com/OneSignal/OneSignal-Xamarin-SDK/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/OneSignal/OneSignal-Xamarin-SDK</projectUrl>
+        <licenseUrl>https://github.com/tmijieux/OneSignal-Xamarin-SDK/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/tmijieux/OneSignal-Xamarin-SDK</projectUrl>
         <icon>nuget_icon.png</icon>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>OneSignal for Xamarin</description>
@@ -58,7 +58,7 @@
         <file src="OneSignal.iOS.Binding\bin\Release\OneSignal.iOS.Binding.resources\**" target="res\iOS" />
         <!-- This is a .target files that gets used by project that consumes the NuGet package.
              This copies out the OneSignal.xcframework from the resources folder and adds a NativeReference to it in the app project. -->
-        <file src="OneSignal.iOS.Binding\OneSignalSDK.Xamarin.targets" target="build\Xamarin.iOS\" />
+        <file src="OneSignal.iOS.Binding\TMijieux.OneSignalSDK.Xamarin.targets" target="build\Xamarin.iOS\" />
         <file src="nuget_icon.png" />
     </files>
 </package>
